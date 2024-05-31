@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* head start here */
+.head {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 25px 0px;
+}
+
+.head img {
+  width: 6.9rem;
+}
+/* head end here */
+
+/* nav start here */
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+  font-weight: 600;
+  color: rgb(94, 92, 92);
+}
+/* nav end here */
+
+/* first div start here */
+.first_div {
+  width: 100%;
+  background-color: #fff5f5;
+}
+
+.first_div .first_center {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_div .first_center h1 {
+  font-size: 3.9rem;
+  color: rgb(70, 68, 68);
+}
+
+.first_div .first_center p {
+  margin: 55px 0;
+  font-size: 1.3rem;
+  color: grey;
+}
+
+.first_div .first_center button {
+  width: 150px;
+  padding: 16px 23px;
+  font-size: 1rem;
+  background-color: rgb(65, 65, 65);
+  color: #fff;
+  border: none;
+}
+/* first div end here */
+
+/* image div start here */
+.image_div {
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+}
+
+#featured {
+  color: rgb(78, 78, 78);
+}
+/* image div end here */
