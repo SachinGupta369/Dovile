@@ -62,7 +62,7 @@
   color: grey;
 }
 
-.first_div .first_center button {
+button {
   width: 150px;
   padding: 16px 23px;
   font-size: 1rem;
@@ -84,3 +84,60 @@
   color: rgb(78, 78, 78);
 }
 /* image div end here */
+
+/* myname start here */
+.myname{
+   width: 100%;
+   background-color: #fff5f5;
+}
+
+.myname .myname_center{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    padding: 4.3rem 0;
+    color: rgb(78, 78, 78);
+}
+
+.myname .myname_center h1{
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.myname .myname_center p{
+  margin: 0 18.1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+/* myname end here */
+
+/* service start here */
+.service{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service .service_img img{
+ display: flex;
+ justify-content: flex-end;
+}
+
+.service .service_text{
+  width: 40%;
+}
+
+.service .service_text h1{
+  font-size: 5rem;
+}
+
+.service .service_text p{
+  margin: 4rem 0;
+}
+
+
+/* service end here */
