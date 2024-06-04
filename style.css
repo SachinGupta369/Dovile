@@ -86,27 +86,27 @@ button {
 /* image div end here */
 
 /* myname start here */
-.myname{
-   width: 100%;
-   background-color: #fff5f5;
+.myname {
+  width: 100%;
+  background-color: #fff5f5;
 }
 
-.myname .myname_center{
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    text-align: center;
-    padding: 4.3rem 0;
-    color: rgb(78, 78, 78);
+.myname .myname_center {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 4.3rem 0;
+  color: rgb(78, 78, 78);
 }
 
-.myname .myname_center h1{
+.myname .myname_center h1 {
   margin-bottom: 2.5rem;
   font-size: 2.5rem;
 }
 
-.myname .myname_center p{
+.myname .myname_center p {
   margin: 0 18.1rem;
   text-align: center;
   font-size: 1rem;
@@ -114,7 +114,7 @@ button {
 /* myname end here */
 
 /* service start here */
-.service{
+.service {
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -122,22 +122,146 @@ button {
   align-items: center;
 }
 
-.service .service_img img{
- display: flex;
- justify-content: flex-end;
+.service .service_img img {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.service .service_text{
+.service .service_text {
   width: 40%;
 }
 
-.service .service_text h1{
+.service .service_text h1 {
   font-size: 5rem;
 }
 
-.service .service_text p{
+.service .service_text p {
   margin: 4rem 0;
 }
-
-
 /* service end here */
+
+/* five start here */
+.five {
+  width: 100%;
+  background-color: #fff5f5;
+  padding: 6.2rem 0;
+}
+
+.five h1 {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.five .five_center {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  width: 38%;
+}
+
+.left p{
+  padding-bottom: 3rem;
+}
+
+.right{
+  width: 38%;
+}
+
+.right p{
+  margin-bottom: 3rem;
+}
+
+.left h4{
+  font-size: 1.3rem;
+}
+
+.right h4{
+  font-size: 1.3rem;
+}
+/* five end here */
+
+/* myblog start here */
+.myblog{
+  width: 100%;
+}
+
+.myblog_center{
+  width: 1200px;
+  margin: 0 auto;
+  display:flex ;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid rebeccapurple; */
+}
+
+.myblog_center .myblog_txt{
+  width: 40%;
+}
+
+.myblog_center .myblog_txt h1{
+  font-size: 3rem;
+}
+
+.myblog_center .myblog_txt p{
+  margin: 3rem 0 5.5rem 0;
+}
+/* myblog end here */
+
+/* Last-pink start here */
+.last-pink{
+  background-color: #fff5f5;
+  width: 100%;
+}
+
+.last-pink-center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 760px;
+  margin: 0 auto;
+  padding: 8rem 0;
+}
+
+.last-pink-txt{
+  width: 50%;
+}
+
+.last-pink-txt h3{
+  margin-top: 2rem;
+}
+/* Last-pink end here */
+
+/* fourpics start here */
+.fourpics{
+  width: 100%;
+}
+
+.fourpics .fourpics_center{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+
+.logo{
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+span {
+  margin-right: 1.5rem;
+}
+
+.fourpics p{
+  text-align: center;
+  text-decoration: underline;
+  padding: 1.4rem 0;
+  font-size: 1.5rem;
+  color: rgb(78, 78, 78);
+}
+/* fourpics end here */
