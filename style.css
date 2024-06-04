@@ -159,65 +159,65 @@ button {
   justify-content: space-between;
 }
 
-.left{
+.left {
   width: 38%;
 }
 
-.left p{
+.left p {
   padding-bottom: 3rem;
 }
 
-.right{
+.right {
   width: 38%;
 }
 
-.right p{
+.right p {
   margin-bottom: 3rem;
 }
 
-.left h4{
+.left h4 {
   font-size: 1.3rem;
 }
 
-.right h4{
+.right h4 {
   font-size: 1.3rem;
 }
 /* five end here */
 
 /* myblog start here */
-.myblog{
+.myblog {
   width: 100%;
 }
 
-.myblog_center{
+.myblog_center {
   width: 1200px;
   margin: 0 auto;
-  display:flex ;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   /* border: 1px solid rebeccapurple; */
 }
 
-.myblog_center .myblog_txt{
+.myblog_center .myblog_txt {
   width: 40%;
 }
 
-.myblog_center .myblog_txt h1{
+.myblog_center .myblog_txt h1 {
   font-size: 3rem;
 }
 
-.myblog_center .myblog_txt p{
+.myblog_center .myblog_txt p {
   margin: 3rem 0 5.5rem 0;
 }
 /* myblog end here */
 
 /* Last-pink start here */
-.last-pink{
+.last-pink {
   background-color: #fff5f5;
   width: 100%;
 }
 
-.last-pink-center{
+.last-pink-center {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -226,21 +226,21 @@ button {
   padding: 8rem 0;
 }
 
-.last-pink-txt{
+.last-pink-txt {
   width: 50%;
 }
 
-.last-pink-txt h3{
+.last-pink-txt h3 {
   margin-top: 2rem;
 }
 /* Last-pink end here */
 
 /* fourpics start here */
-.fourpics{
+.fourpics {
   width: 100%;
 }
 
-.fourpics .fourpics_center{
+.fourpics .fourpics_center {
   margin: 0 auto;
   width: 1200px;
   display: flex;
@@ -249,20 +249,21 @@ button {
   padding: 5rem 0;
 }
 
-.logo{
+.logo {
   text-align: center;
   font-size: 1.4rem;
 }
 
 span {
-  margin-right: 1.5rem;
+  margin-right: 1.2rem;
 }
 
-.fourpics p{
+.fourpics p {
   text-align: center;
+  justify-content: center;
   text-decoration: underline;
   padding: 1.4rem 0;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: rgb(78, 78, 78);
 }
 /* fourpics end here */
