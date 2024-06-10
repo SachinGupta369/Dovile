@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bodoni Moda",sans-serif;
 }
 
 /* head start here */
@@ -32,7 +35,11 @@
   list-style: none;
   gap: 1.2rem;
   font-weight: 600;
+}
+
+a{
   color: rgb(94, 92, 92);
+  text-decoration: none;
 }
 /* nav end here */
 
@@ -46,9 +53,13 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  width: 1200px;
+  max-width: 1200px;
   justify-content: space-between;
   align-items: center;
+}
+
+.first_center .first_text{
+  width: 40%;
 }
 
 .first_div .first_center h1 {
@@ -70,6 +81,14 @@ button {
   color: #fff;
   border: none;
 }
+
+.first_img{
+  width: 50%;
+}
+
+.first_img img{
+  width: 100%;
+}
 /* first div end here */
 
 /* image div start here */
@@ -77,10 +96,20 @@ button {
   padding: 4rem 0;
   display: flex;
   justify-content: center;
-  gap: 9rem;
+  /* gap: 9rem; */
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image_div img{
+  width: 20%;
+  object-fit: contain;
 }
 
 #featured {
+  font-size: 40px;
+  font-weight: 900;
   color: rgb(78, 78, 78);
 }
 /* image div end here */
@@ -92,7 +121,7 @@ button {
 }
 
 .myname .myname_center {
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -103,26 +132,31 @@ button {
 
 .myname .myname_center h1 {
   margin-bottom: 2.5rem;
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 .myname .myname_center p {
   margin: 0 18.1rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 16px;
 }
 /* myname end here */
 
 /* service start here */
 .service {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.service_img{
+  width: 50%;
+}
+
 .service .service_img img {
+  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
@@ -132,7 +166,7 @@ button {
 }
 
 .service .service_text h1 {
-  font-size: 5rem;
+  font-size: 65px;
 }
 
 .service .service_text p {
@@ -142,7 +176,7 @@ button {
 
 /* five start here */
 .five {
-  width: 100%;
+  max-width: 100%;
   background-color: #fff5f5;
   padding: 6.2rem 0;
 }
@@ -153,14 +187,14 @@ button {
 }
 
 .five .five_center {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
 .left {
-  width: 38%;
+  max-width: 38%;
 }
 
 .left p {
@@ -168,7 +202,7 @@ button {
 }
 
 .right {
-  width: 38%;
+  max-width: 38%;
 }
 
 .right p {
@@ -190,7 +224,7 @@ button {
 }
 
 .myblog_center {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -209,6 +243,14 @@ button {
 .myblog_center .myblog_txt p {
   margin: 3rem 0 5.5rem 0;
 }
+
+.myblog_img{
+  width: 50%;
+}
+
+.myblog_img img{
+  width: 100%;
+}
 /* myblog end here */
 
 /* Last-pink start here */
@@ -221,17 +263,25 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 760px;
+  max-width: 49%;
   margin: 0 auto;
   padding: 8rem 0;
 }
 
 .last-pink-txt {
-  width: 50%;
+  width: 40%;
 }
 
 .last-pink-txt h3 {
   margin-top: 2rem;
+}
+
+.last-pink-center .last-pink-img{
+  width: 35%;
+}
+
+.last-pink-img img{
+  width: 100%;
 }
 /* Last-pink end here */
 
@@ -242,11 +292,15 @@ button {
 
 .fourpics .fourpics_center {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   padding: 5rem 0;
+}
+
+.fourpics_center img{
+  width: 80%;
 }
 
 .logo {
